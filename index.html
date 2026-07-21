@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Helpful Strangers | Community Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="The Helpful Strangers home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="sun"></span><span class="helper"></span><span class="neighbor"></span>
+        </span>
+        <span class="brand-text">The Helpful<br>Strangers</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class="active" href="#top">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#work">What We Do</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#involved">Get Involved</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-donate" href="#donate">❤ Donate</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true">
+        <span class="sunset"></span><span class="church"></span><span class="city"></span>
+        <span class="volunteer left"></span><span class="volunteer center"></span><span class="volunteer right"></span>
+      </div>
+      <div class="hero-content container">
+        <p class="eyebrow">Community care in action</p>
+        <h1 id="hero-title">Kindness Isn’t Weakness</h1>
+        <p>Building a stronger community through compassion, support, and understanding.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#involved">👥 Get Involved</a>
+          <a class="btn btn-outline" href="#about">Learn More ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="seal" aria-label="The Helpful Strangers logo illustration">
+          <div class="seal-inner"><span class="seal-sun"></span><span class="seal-figures"></span><strong>The Helpful<br>Strangers</strong></div>
+        </div>
+        <div class="about-copy">
+          <p class="section-label">About Us</p>
+          <h2>We’re just people <span>helping people.</span></h2>
+          <p>The Helpful Strangers is a community-driven movement dedicated to supporting those in need and making a real difference in people’s lives. Through acts of kindness, we build connections and stronger communities.</p>
+          <a class="btn btn-dark" href="#stories">Our Story ›</a>
+        </div>
+        <div class="values">
+          <article><span>🙌</span><div><h3>Compassion</h3><p>We lead with empathy and understanding.</p></div></article>
+          <article><span>👥</span><div><h3>Community</h3><p>Stronger together. Better tomorrow.</p></div></article>
+          <article><span>🤝</span><div><h3>Support</h3><p>Practical help for real life challenges.</p></div></article>
+          <article><span>🧡</span><div><h3>Hope</h3><p>Restoring hope and changing lives.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section programs" id="work">
+      <div class="container">
+        <p class="section-label center">What We Do</p>
+        <h2 class="center">Making a difference every day</h2>
+        <div class="cards">
+          <article class="card"><div class="card-img food"></div><span>🍲</span><h3>Food & Essentials</h3><p>Providing meals and essential items to those in need.</p></article>
+          <article class="card"><div class="card-img shelter"></div><span>🏠</span><h3>Homeless Support</h3><p>Offering shelter, clothing, and resources to rebuild lives.</p></article>
+          <article class="card"><div class="card-img outreach"></div><span>👥</span><h3>Community Outreach</h3><p>Connecting, listening, and supporting our community.</p></article>
+          <article class="card"><div class="card-img hands"></div><span>❤</span><h3>Volunteer Network</h3><p>Bringing together kind-hearted people to create change.</p></article>
+        </div>
+        <a class="btn btn-dark centered" href="#work">See All Programs ›</a>
+      </div>
+    </section>
+
+    <section class="stories section" id="stories">
+      <div class="container stories-grid">
+        <div>
+          <p class="section-label">Featured Stories</p>
+          <h2>Viral moments with real local impact</h2>
+          <p>Every nomination can become a meal delivered, a room transformed, a bill paid, or a family reminded they are not alone.</p>
+        </div>
+        <article class="story"><strong>House Transformation</strong><p>Volunteers and local businesses refreshed a family home in one weekend.</p></article>
+        <article class="story"><strong>Emergency Aid</strong><p>Neighbors rallied to cover essentials during an unexpected hardship.</p></article>
+      </div>
+    </section>
+
+    <section class="impact" id="involved">
+      <div class="impact-dark">
+        <div class="container impact-grid">
+          <div>
+            <p class="section-label">Our Impact</p>
+            <h2>Together, we’re changing lives</h2>
+          </div>
+          <div class="stat"><span>5,000+</span><small>People Helped</small></div>
+          <div class="stat"><span>1,200+</span><small>Volunteers</small></div>
+          <div class="stat"><span>12,000+</span><small>Meals Provided</small></div>
+          <div class="stat"><span>50+</span><small>Community Partners</small></div>
+        </div>
+      </div>
+      <div class="newsletter" id="contact">
+        <div class="container newsletter-grid">
+          <div><span class="mail">✉</span><h2>Stay Connected</h2><p>Subscribe for updates, stories, and ways to get involved.</p></div>
+          <form><label class="sr-only" for="email">Email</label><input id="email" type="email" placeholder="Enter your email"><button class="btn btn-dark" type="submit">Subscribe</button></form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="donate">
+    <div class="container footer-grid">
+      <div><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text">The Helpful<br>Strangers</span></a><p>Spreading kindness. Building stronger communities.</p></div>
+      <div><h3>Quick Links</h3><a href="#top">Home</a><a href="#about">About Us</a><a href="#work">What We Do</a></div>
+      <div><h3>Get Involved</h3><a href="#involved">Volunteer</a><a href="#donate">Donate</a><a href="#contact">Partner With Us</a></div>
+      <div><h3>Follow Us</h3><p class="socials">f ◎ 𝕏 ▶</p></div>
+    </div>
+    <p class="copyright">© 2026 The Helpful Strangers. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
